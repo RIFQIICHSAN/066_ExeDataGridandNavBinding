@@ -48,5 +48,11 @@ namespace _066_ExeDataGridandNavBinding
             new DataGrid().Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new MenuLogin().Show();
+            this.Hide();
+        }
     }
 }
